@@ -1,5 +1,5 @@
-import {themes as prismThemes} from 'prism-react-renderer';
-import type {Config} from '@docusaurus/types';
+import { themes as prismThemes } from 'prism-react-renderer';
+import type { Config } from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
@@ -15,14 +15,14 @@ const config: Config = {
   },
 
   // Set the production url of your site here
-  url: 'https://YOUR_GITHUB_USERNAME.github.io',
+  url: 'https://siendomiguel.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/docs-stats-repo/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'YOUR_GITHUB_USERNAME', // Usually your GitHub org/user name.
+  organizationName: 'siendomiguel', // Usually your GitHub org/user name.
   projectName: 'docs-stats-repo', // Usually your repo name.
 
   trailingSlash: false,
@@ -88,7 +88,7 @@ const config: Config = {
           label: 'Reports',
         },
         {
-          href: 'https://github.com/YOUR_GITHUB_USERNAME/docs-stats-repo',
+          href: 'https://github.com/siendomiguel/docs-stats-repo',
           label: 'GitHub',
           position: 'right',
         },
@@ -111,7 +111,7 @@ const config: Config = {
           items: [
             {
               label: 'GitHub',
-              href: 'https://github.com/YOUR_GITHUB_USERNAME/docs-stats-repo',
+              href: 'https://github.com/siendomiguel/docs-stats-repo',
             },
           ],
         },

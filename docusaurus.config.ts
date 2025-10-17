@@ -18,12 +18,12 @@ const config: Config = {
   url: 'https://siendomiguel.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/reports-dm/', // Usa '/' para desarrollo local, cambia a '/docs-stats-repo/' antes de desplegar
+  baseUrl: '/reports-dm/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'siendomiguel', // Usually your GitHub org/user name.
-  projectName: 'docs-stats-repo', // Usually your repo name.
+  projectName: 'reports-dm', // Usually your repo name.
 
   trailingSlash: false,
   deploymentBranch: 'gh-pages',
@@ -88,7 +88,7 @@ const config: Config = {
           label: 'Reports',
         },
         {
-          href: 'https://github.com/siendomiguel/docs-stats-repo',
+          href: 'https://github.com/siendomiguel/reports-dm',
           label: 'GitHub',
           position: 'right',
         },
@@ -111,7 +111,7 @@ const config: Config = {
           items: [
             {
               label: 'GitHub',
-              href: 'https://github.com/siendomiguel/docs-stats-repo',
+              href: 'https://github.com/siendomiguel/reports-dm',
             },
           ],
         },

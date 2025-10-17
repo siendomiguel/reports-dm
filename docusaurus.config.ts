@@ -18,7 +18,7 @@ const config: Config = {
   url: 'https://siendomiguel.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/docs-stats-repo/',
+  baseUrl: '/reports-dm/', // Usa '/' para desarrollo local, cambia a '/docs-stats-repo/' antes de desplegar
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
